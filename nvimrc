@@ -50,3 +50,6 @@ let g:syntastic_check_on_wq = 0
 " let g:tagbar_autoclose = 1
 
 source ~/.nvim/bindings.vim
+
+" =================== Airline ======================
+let g:airline_powerline_fonts = 1

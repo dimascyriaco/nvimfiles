@@ -21,7 +21,7 @@ Plugin 'tomasr/molokai'
 Plugin 'pangloss/vim-javascript'
 Plugin 'majutsushi/tagbar'
 Plugin 'justincampbell/vim-railscasts'
-" Plugin 'altercation/vim-colors-solarized'
+Plugin 'bling/vim-airline'
 
 call vundle#end()
 filetype plugin indent on
