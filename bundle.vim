@@ -14,7 +14,14 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'fatih/vim-go'
 Plugin 'mileszs/ack.vim'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'mxw/vim-jsx'
+Plugin 'justinj/vim-react-snippets'
+Plugin 'scrooloose/syntastic'
+Plugin 'tomasr/molokai'
+Plugin 'pangloss/vim-javascript'
+Plugin 'majutsushi/tagbar'
+Plugin 'justincampbell/vim-railscasts'
+" Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 filetype plugin indent on
