@@ -22,6 +22,9 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'majutsushi/tagbar'
 Plugin 'justincampbell/vim-railscasts'
 Plugin 'bling/vim-airline'
+Plugin 'leafgarland/typescript-vim' 
+Plugin 'Shougo/vimproc' 
+Plugin 'Quramy/tsuquyomi' 
 
 call vundle#end()
 filetype plugin indent on
