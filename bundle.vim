@@ -27,6 +27,7 @@ Plugin 'Shougo/vimproc'
 Plugin 'Quramy/tsuquyomi' 
 Plugin 'digitaltoad/vim-jade' 
 Plugin 'mustache/vim-mustache-handlebars' 
+Plugin 'tpope/vim-rails' 
 
 call vundle#end()
 filetype plugin indent on
