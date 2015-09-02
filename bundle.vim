@@ -27,6 +27,11 @@ Plugin 'Shougo/vimproc'
 Plugin 'Quramy/tsuquyomi' 
 Plugin 'digitaltoad/vim-jade' 
 Plugin 'mustache/vim-mustache-handlebars' 
+Plugin 'vim-ruby/vim-ruby' 
+Plugin 'hallison/vim-ruby-sinatra' 
+Plugin 'slim-template/vim-slim' 
+Plugin 'kchmck/vim-coffee-script' 
+
 
 call vundle#end()
 filetype plugin indent on

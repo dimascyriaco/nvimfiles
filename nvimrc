@@ -14,6 +14,8 @@ set number
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
 set backspace=indent,eol,start
+set splitbelow
+set splitright
 
 syntax enable
 " set background=dark
@@ -53,3 +55,14 @@ source ~/.nvim/bindings.vim
 
 " =================== Airline ======================
 let g:airline_powerline_fonts = 1
+
+" ================== Nvim Term =====================
+:tnoremap <C-h> <C-\><C-n><C-w>h
+:tnoremap <C-j> <C-\><C-n><C-w>j
+:tnoremap <C-k> <C-\><C-n><C-w>k
+:tnoremap <C-l> <C-\><C-n><C-w>l
+:nnoremap <C-h> <C-w>h
+:nnoremap <C-j> <C-w>j
+:nnoremap <C-k> <C-w>k
+:nnoremap <C-l> <C-w>l
+
