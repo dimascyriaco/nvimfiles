@@ -53,3 +53,6 @@ source ~/.nvim/bindings.vim
 
 " =================== Airline ======================
 let g:airline_powerline_fonts = 1
+
+" =================== Folding ======================
+autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent

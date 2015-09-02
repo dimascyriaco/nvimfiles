@@ -28,6 +28,10 @@ Plugin 'Quramy/tsuquyomi'
 Plugin 'digitaltoad/vim-jade' 
 Plugin 'mustache/vim-mustache-handlebars' 
 Plugin 'tpope/vim-rails' 
+Plugin 'tpope/vim-surround'
+Plugin 'slim-template/vim-slim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()
 filetype plugin indent on
