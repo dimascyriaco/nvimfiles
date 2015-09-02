@@ -35,3 +35,8 @@ au FileType go nmap <Leader>i <Plug>(go-info)
 
 " ================= Tagbar =========================
 nmap <F8> :TagbarOpenAutoClose<CR>
+
+" ================= Folding ========================
+nnoremap <Space> za
+vnoremap <Space> za
+nnoremap <zO> zCzO

@@ -31,7 +31,9 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'hallison/vim-ruby-sinatra' 
 Plugin 'slim-template/vim-slim' 
 Plugin 'kchmck/vim-coffee-script' 
-
+Plugin 'tpope/vim-rails' 
+Plugin 'tpope/vim-surround'
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()
 filetype plugin indent on
