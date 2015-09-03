@@ -26,6 +26,10 @@ nmap <Leader>m :BuffergatorToggle<cr>
 nmap <F8> :TagbarOpenAutoClose<CR>
 
 " ================= Folding ========================
-nnoremap <Space> za
-vnoremap <Space> za
+" nnoremap <Space> za
+" vnoremap <Space> za
 nnoremap <zO> zCzO
+
+" ================= Scrolling ======================
+map <C-S-j> <C-e>
+map <C-S-k> <C-y>

@@ -1,6 +1,6 @@
 set nocompatible
 filetype off
-let mapleader = ','
+let mapleader = "\<Space>"
 
 source ~/.nvim/bundle.vim
 
@@ -20,8 +20,10 @@ set splitright
 syntax enable
 colorscheme railscasts
 
-let NERDTreeQuitOnOpen=1
 let g:UltiSnipsExpandTrigger="<c-j>"
+
+" =================== NERDTree =====================
+let NERDTreeQuitOnOpen=1
 
 " neovim.org/doc/user/nvim_clipboard.htmlencoding
 set clipboard^=unnamedplus
