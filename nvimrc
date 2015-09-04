@@ -58,5 +58,6 @@ let g:airline_powerline_fonts = 1
 :nnoremap <C-l> <C-w>l
 
 " =================== Folding ======================
+set foldmethod=syntax
 autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 
