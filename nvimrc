@@ -9,7 +9,6 @@ set incsearch
 set noswapfile
 set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
-set relativenumber
 set number
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
@@ -60,4 +59,6 @@ let g:airline_powerline_fonts = 1
 " =================== Folding ======================
 set foldmethod=syntax
 autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent
+set foldlevelstart=99
+
 
