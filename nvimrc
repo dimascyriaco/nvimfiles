@@ -61,4 +61,12 @@ set foldmethod=syntax
 autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 set foldlevelstart=99
 
+" ==================== RSpec =======================
+map <Leader>f :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+let g:rspec_command = "!bin/rspec {spec} --color"
 
+" =================== Buffer =======================
+map <Leader><Tab> :b#<CR>

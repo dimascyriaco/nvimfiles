@@ -26,6 +26,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-rails' 
 Plugin 'tpope/vim-surround'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'thoughtbot/vim-rspec'
 
 call vundle#end()
 filetype plugin indent on
