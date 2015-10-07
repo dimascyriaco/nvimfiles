@@ -27,6 +27,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'thoughtbot/vim-rspec'
+Plugin 'sickill/vim-pasta'
 
 call vundle#end()
 filetype plugin indent on
