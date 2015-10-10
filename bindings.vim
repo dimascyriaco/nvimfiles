@@ -33,3 +33,11 @@ nnoremap <zO> zCzO
 " ================= Scrolling ======================
 map <C-S-j> <C-e>
 map <C-S-k> <C-y>
+
+" Searching {{
+nnoremap <leader>h :nohlsearch<CR> " turn off search highlight
+" }}
+
+" Session {{
+nnoremap <leader>s :mksession<CR> " save session
+" }}

@@ -32,6 +32,7 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'cespare/vim-toml'
 Plugin 'racer-rust/vim-racer'
 Plugin 'sjl/badwolf'
+Plugin 'sickill/vim-pasta'
 
 call vundle#end()
 filetype plugin indent on
