@@ -41,3 +41,26 @@ nnoremap <leader>h :nohlsearch<CR> " turn off search highlight
 " Session {{
 nnoremap <leader>s :mksession<CR> " save session
 " }}
+
+" Buffer switching {{
+map <Leader><Tab> :b#<CR>
+" }}
+
+" RSpec {{
+map <Leader>f :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+let g:rspec_command = "!bin/rspec {spec} --color"
+" }}
+
+" Term {{
+:tnoremap <C-h> <C-\><C-n><C-w>h
+:tnoremap <C-j> <C-\><C-n><C-w>j
+:tnoremap <C-k> <C-\><C-n><C-w>k
+:tnoremap <C-l> <C-\><C-n><C-w>l
+:nnoremap <C-h> <C-w>h
+:nnoremap <C-j> <C-w>j
+:nnoremap <C-k> <C-w>k
+:nnoremap <C-l> <C-w>l
+" }}
