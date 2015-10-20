@@ -7,3 +7,10 @@ Given(/^$1/) do
   $2
 end$3
 endsnippet
+
+snippet task "Rake Task" b
+desc "$1"
+task $2: :environment do
+	$3
+end
+endsnippet

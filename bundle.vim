@@ -34,6 +34,7 @@ Plugin 'sickill/vim-pasta'
 Plugin 'rking/ag.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'godlygeek/tabular'
+Plugin 'osyo-manga/vim-over'
 
 call vundle#end()
 filetype plugin indent on
