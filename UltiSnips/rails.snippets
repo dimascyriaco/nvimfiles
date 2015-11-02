@@ -1,3 +1,9 @@
+snippet class "Define simple class" b
+class $1
+  $2
+end
+endsnippet
+
 snippet st "Cucumber step call"
 step "$1"$2
 endsnippet
@@ -6,4 +12,16 @@ snippet given "Cucumber step definition" b
 Given(/^$1/) do
   $2
 end$3
+endsnippet
+
+snippet rdsc "RSpec.describe ..." b
+RSpec.describe $1 do
+  $2
+end
+endsnippet
+
+snippet vcr "VCR.use_cassette ..." b
+VCR.use_cassette $1 do
+  $2
+end
 endsnippet

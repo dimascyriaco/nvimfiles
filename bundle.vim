@@ -1,39 +1,45 @@
-set rtp+=~/.nvim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
 
-Plugin 'gmarik/Vundle.vim'
-Plugin 'ctrpvim/ctrlp.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'buffergator'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'pangloss/vim-javascript'
-Plugin 'majutsushi/tagbar'
-Plugin 'justincampbell/vim-railscasts'
-Plugin 'Shougo/vimproc'
-Plugin 'Quramy/tsuquyomi'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'slim-template/vim-slim'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-surround'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'Rip-Rip/clang_complete'
-Plugin 'rust-lang/rust.vim'
-Plugin 'cespare/vim-toml'
-Plugin 'racer-rust/vim-racer'
-Plugin 'sjl/badwolf'
-Plugin 'sickill/vim-pasta'
-Plugin 'rking/ag.vim'
-Plugin 'itchyny/lightline.vim'
-Plugin 'godlygeek/tabular'
+Plug 'git@github.com:kien/ctrlp.vim.git'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'tpope/vim-fugitive'
+Plug 'morhetz/gruvbox'
+Plug 'airblade/vim-gitgutter'
+Plug 'buffergator'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tomtom/tcomment_vim'
+Plug 'benekastah/neomake'
+Plug 'majutsushi/tagbar'
+Plug 'justincampbell/vim-railscasts'
+Plug 'Shougo/vimproc'
+Plug 'Quramy/tsuquyomi'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'sjl/badwolf'
+Plug 'sickill/vim-pasta'
+Plug 'rking/ag.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'godlygeek/tabular'
 
-call vundle#end()
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffeescript' }
+
+Plug 'Rip-Rip/clang_complete', { 'for': 'cpp' }
+
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+
+Plug 'tpope/vim-rails', { 'for': 'rails' }
+
+Plug 'tpope/vim-surround'
+Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
+Plug 'thoughtbot/vim-rspec', { 'for': 'ruby' }
+
+Plug 'racer-rust/vim-racer', { 'for': 'rust' }
+Plug 'rust-lang/rust.vim', { 'for': 'rust' }
+
+Plug 'slim-template/vim-slim', { 'for': 'slim' }
+
+Plug 'cespare/vim-toml', { 'for': 'toml' }
+
+call plug#end()
 filetype plugin indent on

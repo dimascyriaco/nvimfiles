@@ -6,6 +6,7 @@ set nocompatible
 filetype off
 set noswapfile
 let mapleader = "\<Space>"
+set mouse=a
 set ttyfast
 set backspace=indent,eol,start " backspace through lines
 source ~/.nvim/bindings.vim
@@ -13,7 +14,8 @@ source ~/.nvim/bindings.vim
 
 " Colors {{{
 syntax enable        " enable syntax highlight
-colorscheme badwolf  " set colorscheme
+colorscheme gruvbox  " set colorscheme
+set background=dark  " set gruvbox dark mode
 " }}}
 
 " Spaces & Tabs {{{
