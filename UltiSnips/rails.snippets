@@ -25,3 +25,11 @@ VCR.use_cassette $1 do
   $2
 end
 endsnippet
+
+snippet task "Rake Task" b
+desc "$1"
+task $2: :environment do
+	$3
+end
+endsnippet
+
