@@ -1,7 +1,7 @@
 " Dimas Cyriaco
 
 " Vim config {{{
-source ~/.nvim/bundle.vim " load plugins
+source ~/.config/nvim/bundle.vim " load plugins
 set nocompatible
 filetype off
 set noswapfile
@@ -9,7 +9,7 @@ let mapleader = "\<Space>"
 set mouse=a
 set ttyfast
 set backspace=indent,eol,start " backspace through lines
-source ~/.nvim/bindings.vim
+source ~/.config/nvim/bindings.vim
 " }}}
 
 " Colors {{{
