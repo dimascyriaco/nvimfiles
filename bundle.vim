@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 Plug 'git@github.com:kien/ctrlp.vim.git'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
